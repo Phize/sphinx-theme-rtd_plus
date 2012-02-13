@@ -593,6 +593,84 @@ p {
 }
 
 
+/* RTD PLUS ----------------------------------------------------------------- */
+
+table {
+    margin: 0;
+}
+table th, table td {
+    vertical-align: top;
+}
+table td.hover {
+    background: #eee;
+}
+
+pre, #_fontwidthtest {
+    margin: 1em 0;
+}
+
+div.admonition, div.warning, div.sidebar {
+    margin: 2em 0;
+}
+
+div.admonition table td.hover,
+div.warning table td.hover {
+    background: transparent;
+}
+
+div.body {
+    max-width: none;
+}
+
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6 {
+    margin: 30px 0px 10px 0px;
+    padding: 5px 0 5px 10px;
+}
+
+div.body h1 {
+    margin-top: 0;
+    color: #fff;
+    background: #465158;
+}
+
+div.body h2 {
+    color: #fff;
+    background: #697983;
+    border: 1px solid #cccccd;
+}
+
+div.body h3 {
+    background: #ddd;
+    border: 1px solid #cccccd;
+}
+
+div.body h4 {
+    border: 1px solid #cccccd;
+    background: #e8ecef;
+}
+
+div.body h1 a, div.body h2 a, div.body h3 a, div.body h4 a, div.body h5 a, div.body h6 a {
+    border-bottom: none;
+}
+
+div.body h1 a, div.body h2 a {
+    color: #fff;
+}
+
+.treeview {
+    margin: 0.8em 0 0.5em 0 !important;
+    line-height: 1;
+}
+.filetree span.folder,
+.filetree span.file {
+    background-position: 0 50% !important;
+}
+.filetree span.folder,
+.filetree span.file {
+    padding-left: 20px !important;
+}
+
+
 /* MOBILE LAYOUT -------------------------------------------------------------- */
 
 @media screen and (max-width: 600px) {
@@ -784,82 +862,4 @@ p {
         margin-left: 0;
     }
 
-}
-
-
-
-
-table {
-    margin: 0;
-}
-table th, table td {
-    vertical-align: top;
-}
-table td.hover {
-    background: #eee;
-}
-
-pre, #_fontwidthtest {
-    margin: 1em 0;
-}
-
-div.admonition, div.warning, div.sidebar {
-    margin: 2em 0;
-}
-
-div.admonition table td.hover,
-div.warning table td.hover {
-    background: transparent;
-}
-
-div.body {
-    max-width: none;
-}
-
-div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6 {
-    margin: 30px 0px 10px 0px;
-    padding: 5px 0 5px 10px;
-}
-
-div.body h1 {
-    margin-top: 0;
-    color: #fff;
-    background: #465158;
-}
-
-div.body h2 {
-    color: #fff;
-    background: #697983;
-    border: 1px solid #cccccd;
-}
-
-div.body h3 {
-    background: #ddd;
-    border: 1px solid #cccccd;
-}
-
-div.body h4 {
-    border: 1px solid #cccccd;
-    background: #e8ecef;
-}
-
-div.body h1 a, div.body h2 a, div.body h3 a, div.body h4 a, div.body h5 a, div.body h6 a {
-    border-bottom: none;
-}
-
-div.body h1 a, div.body h2 a {
-    color: #fff;
-}
-
-.treeview {
-    margin: 0.8em 0 0.5em 0 !important;
-    line-height: 1;
-}
-.filetree span.folder,
-.filetree span.file {
-    background-position: 0 50% !important;
-}
-.filetree span.folder,
-.filetree span.file {
-    padding-left: 20px !important;
 }
