@@ -645,8 +645,9 @@ div.body h3 {
 }
 
 div.body h4 {
-    border: 1px solid #cccccd;
+    color: #444;
     background: #e8ecef;
+    border: 1px solid #cccccd;
 }
 
 div.body h1 a, div.body h2 a, div.body h3 a, div.body h4 a, div.body h5 a, div.body h6 a {
