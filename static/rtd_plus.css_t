@@ -671,7 +671,7 @@ div.body h1 a, div.body h2 a {
 }
 
 /* Syntax highlight for Bash */
-.highlight-bash .highlight pre { background: #272822; color: #f8f8f2 }
+.highlight-bash .highlight pre { border: none; background: #272822; color: #f8f8f2 }
 .highlight-bash .highlight .hll { background-color: #49483e }
 .highlight-bash .highlight .c { color: #75715e } /* Comment */
 .highlight-bash .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
