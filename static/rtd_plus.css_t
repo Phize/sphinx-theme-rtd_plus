@@ -596,7 +596,7 @@ p {
 /* RTD PLUS ----------------------------------------------------------------- */
 
 table {
-    margin: 0;
+    margin: 1em 0;
 }
 table th, table td {
     vertical-align: top;
