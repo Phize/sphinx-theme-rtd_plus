@@ -625,6 +625,12 @@ div.body {
 div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6 {
     margin: 30px 0px 10px 0px;
     padding: 5px 0 5px 10px;
+    border: 1px solid #ccc;
+}
+
+div.body h4, div.body h5, div.body h6 {
+    color: #222;
+    font-size: 100%;
 }
 
 div.body h1 {
@@ -636,18 +642,23 @@ div.body h1 {
 div.body h2 {
     color: #fff;
     background: #697983;
-    border: 1px solid #cccccd;
 }
 
 div.body h3 {
-    background: #ddd;
-    border: 1px solid #cccccd;
+    color: #fff;
+    background: #8ca1af;
 }
 
 div.body h4 {
-    color: #444;
     background: #e8ecef;
-    border: 1px solid #cccccd;
+}
+
+div.body h5 {
+    background: #ddd;
+}
+
+div.body h6 {
+    background: #f8f8f8;
 }
 
 div.body h1 a, div.body h2 a, div.body h3 a, div.body h4 a, div.body h5 a, div.body h6 a {
