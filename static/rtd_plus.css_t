@@ -609,6 +609,15 @@ pre, #_fontwidthtest {
     margin: 1em 0;
 }
 
+div.related-header {
+    position: fixed;
+    top: 0;
+}
+
+div.document {
+    padding-top: 2.5em;
+}
+
 div.admonition, div.warning, div.sidebar {
     margin: 2em 0;
 }
