@@ -692,6 +692,9 @@ div.body h1 a, div.body h2 a, div.body h3 a, div.body h4 a, div.body h5 a, div.b
 .filetree span.file {
     padding-left: 20px !important;
 }
+.contents .treeview ul {
+    background-color: #f8f8f8 !important;
+}
 
 /* Syntax highlight for Bash */
 .highlight-bash .highlight pre { border: none; background: #272822; color: #f8f8f2 }
